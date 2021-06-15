@@ -1,0 +1,349 @@
+
+.header {
+  a{
+    text-decoration: none;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-image: url("./img/headerMobile.svg") ;
+  height: 226px;
+  h2{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    background: linear-gradient(64.17deg, #FF5A56 15.66%, #FF9A42 83.04%);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+}
+.header-synopsis {
+  a{
+    text-decoration: none;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background-image: url("./img/header-synopsis-mobile.svg");
+  background-size: cover;
+  height: 226px;
+  h2{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;    
+    text-align: center;    
+    color: #FFFFFF;
+  }
+}
+.container{
+  margin: 10px;
+  p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #777777;
+   
+  }
+}
+.categories{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: initial;
+  margin: 0 0 10px 0;
+  h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    color: #666666;
+    margin: 0;
+  }
+  img{
+    margin-right: 5px;
+    width: 22px;
+    height: 20.98px;
+  }
+}
+ .splide--draggable>.splide__track>.splide__list>.splide__slide {
+  //margin-left: -3px;
+}
+.box-movie{
+  width: 230px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.box-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px 5px;
+  color: #777777;
+  height: 180px;
+  h2{
+    font-family: Ubuntu;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #009CDA;
+    margin: 0 0 5px 0;
+  }
+  small{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  span{
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+.image-film{
+  width: 230px;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./img/background-image.svg");
+  background-repeat: no-repeat;
+  background-size: 311px 169px ;
+  img{
+    opacity: 0.4;
+  }
+}
+.image-film:after {
+  content:"";
+  background: -webkit-linear-gradient(64.17deg, #FF5A56 15.66%, #FF9A42 83.04%);
+  display: block;
+  height:4px;
+  width: 230px;
+  position: absolute;
+  bottom: 209px;
+}
+.box-people{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F5F5F5;
+  width: 200px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 180px;
+
+  h2{
+    font-family: Ubuntu;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #009CDA;
+    margin: 0 0 5px 0;
+  }
+  small{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #666666;
+  }
+  span{
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+}
+
+.back{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #009CDA;
+    a{
+      text-decoration: none;
+      color: inherit; 
+    }
+}
+
+.form{
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+    font-size: 12px;
+    padding: 0 !important;
+  }
+}
+
+.post-button{
+    background-image: url(./img/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;  
+    text-align: center;  
+    height: 52px;
+    color: white  !important;
+}
+.box-comment{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  width: 320px;
+  margin-top: 10px;
+  p{
+    margin: 0 0 10px 10px;
+    padding: 0 !important;
+  }
+  img{
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+}
+
+.btn-up{
+  padding: 10px;
+
+	border: none;
+	background-color: white;
+  font-family: Font Awesome 5 Free;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  color: #00BE3B;
+  img{
+    margin-bottom: 0;
+  }
+  cursor: pointer;
+
+}
+.btn-down{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+	border: none;
+	background-color: white;
+	font-size: 15px;
+  font-family: Font Awesome 5 Free;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FF5656;
+  cursor: pointer;
+
+  img{
+    margin-bottom: 0;
+    margin-left: 2px;
+  }
+}
+
+.search{
+  textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.7;
+  width: 290px;
+  height: 56px;
+  color: -internal-light-dark(white, white);
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: 800;
+  input{
+    font-weight: 800;
+    color: white;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+  }
+  img{
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    h2{
+      font-size: 42px;
+    }
+    background-image: url("./img/header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-synopsis{
+    background-image: url("./img/header-synopsis-web.svg");
+    background-repeat: no-repeat;
+  }
+  .box-movie{
+    width: 311px;
+  }
+  .image-film{
+    width: 311px;
+  }
+  .image-film:after {
+    width: 311px;
+  
+  }
+
+  .box-people{
+    height: 204px;
+    width: 226px;
+  }
+  .container{
+    p{
+    padding-left: 186px;
+    padding-right: 186px;
+
+    }
+  }
+  .form{
+    width: 510px;
+
+  }
+}
+@media screen and (min-width: 1100px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  };
+}
